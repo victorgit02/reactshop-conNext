@@ -15,7 +15,7 @@ const OrderItem = ({ product }) => {
       {product && (
         <>
           
-            <figure>{product.images && <img src={product?.images[0]} width={50} height={60} alt={product.title} />}</figure>
+            <figure>{product.images && <Image src={product?.images[0]} width={50} height={60} alt={product.title} />}</figure>
         
 
           <p>{product.title}</p>
